@@ -1,0 +1,59 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px; /* Tamaño de fuente más grande */
+    line-height: 1.6; /* Mejor legibilidad */
+    background-color: #f0f8f4; /* Fondo suave, color claro */
+    color: #0ce76b; /* Texto en un verde oscuro */
+}
+
+header {
+    background-color: #369168; /* Verde intenso */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px; /* Título más grande */
+}
+
+footer {
+    background-color: #4caf50; /* Verde brillante */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Estilo del modo oscuro */
+.dark-mode {
+    background-color: #000000;
+    color: white;
+}
+
+.dark-mode .navbar {
+    background-color: #09090a !important;
+}
+
+.dark-mode .card {
+    background-color: #020202;
+    color: white;
+}
+
+.dark-mode footer {
+    background-color: #060606 !important;
+}
+
+/* Mejorar la apariencia de los botones */
+button {
+    cursor: pointer;
+    background-color: #3e8e41; /* Verde para los botones */
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px; /* Tamaño más grande */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2b6a35; /* Verde más oscuro al pasar el ratón */
+}
